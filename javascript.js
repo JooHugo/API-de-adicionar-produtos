@@ -10,4 +10,11 @@ document.getElementById('form-cadastrar').addEventListener('submit', function(ev
     console.log("Desconto:", desc);
     console.log("Preço:", preco);
     console.log("Quantidade:", qntd);
+
+    const produto = {
+        nome: nome,
+        desc: desc,
+        preco: preco,
+        qntd: qntd
+    };
 });
